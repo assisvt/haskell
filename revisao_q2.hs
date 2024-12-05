@@ -35,3 +35,12 @@ main = do
   putStrLn $ "Custo por residência: " ++ show custos
   putStrLn $ "Consumo acima de 100: " ++ show altosConsumos
   putStrLn $ "Custo total: " ++ show custoTotal
+
+  {-
+  Copiar código
+let consumos = [50, 120, 80, 150, 200]
+-- Resultado esperado:
+-- Custo por residência: [125.0, 300.0, 200.0, 375.0, 500.0]
+-- Consumo acima de 100: [120, 150, 200]
+-- Custo total: 1500.0 //erro, pq dá 1175
+  -}
