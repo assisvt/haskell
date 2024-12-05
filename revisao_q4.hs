@@ -33,3 +33,11 @@ main = do
     putStrLn $ "Aprovados: " ++ show listaAprovados
     putStrLn $ "Diferenças: " ++ show listaDiferencas
     putStrLn $ "Alunos acima da média: " ++ show qtdAcimaDaMedia
+{-
+Copiar código
+let notas = [55, 70, 80, 45, 60]
+-- Resultado esperado:
+-- Aprovados: [70, 80, 60]
+-- Diferenças: [-10, 10, 20, -35, -5] // ERRO: Diferenças: [-7,8,18,-17,-2]
+-- Alunos acima da média: 2
+-}
