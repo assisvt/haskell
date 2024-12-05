@@ -26,3 +26,12 @@ main = do
     putStrLn $ "Produtos sustentáveis: " ++ show produtosSustentaveis
     putStrLn $ "Descontos: " ++ show descontos
     putStrLn $ "Preços finais: " ++ show precosFinais
+{-
+Copiar código
+let impactos = [2, 4, 6, 3, 7]
+-- RODAR "main"
+-- Resultado esperado:
+-- Produtos sustentáveis: [2, 4, 3]
+-- Descontos: [20%, 10%, 20%]
+-- Preços finais (exemplo): [80, 90, 80]
+-}
